@@ -1,0 +1,11 @@
+5-Fluorouracil	MUC16
+AZD7762	CALM1
+AZD8055	ZRSR2
+Crizotinib	BCL2L12
+Dasatinib	EGFR
+Gefitinib	RBX1
+Gemcitabine	LPP
+Lapatinib	SH2B3
+MK-2206	FRAT2
+Pictilisib	HIF1A
+Vorinostat	PAX8

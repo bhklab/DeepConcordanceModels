@@ -1,0 +1,61 @@
+EXPERIMENT_SETTINGS:
+  num_folds: 10
+  drug_list_file: "../procdata/drug_lists/post_qc.txt"
+  seed: 123450
+  write_dir: "../results/"
+  cv_score: null
+
+DATA_SOURCES:
+  training_screen: "Broad"
+  testing_screens: ["gCSI","GDSC2","GDSC1"]
+
+MODELS_AND_HYPERPARAMETERS:
+  
+  ElasticNet:
+    alpha_min: -2
+    alpha_max: 2
+    num_alphas: 50
+    alpha_logspace: True
+    l1_ratios: [.1,.2, .5,.8,.85,.9, .95, .99, 1]
+    max_iter: 10000
+    precompute: True
+    selection: 'random'
+    n_jobs: -1
+  
+  Lasso:
+    alpha_min: -2
+    alpha_max: 2
+    num_alphas: 50
+    alpha_logspace: True
+    max_iter: 1000000
+    n_jobs: -1
+
+  KRR:
+    alpha_min: 0.01
+    alpha_max: 10
+    num_alphas: 100
+    alpha_logspace: False
+    n_jobs: -1
+
+  RandomForest:
+    max_features: ["sqrt","log2",1.0]
+    n_estimators: [1,5,10,25,50,75,100]
+    n_jobs: -1
+
+  Ridge:
+    alpha_min: 0.01
+    alpha_max: 10
+    num_alphas: 100
+    alpha_logspace: False
+
+  Univariable:
+    k: 1
+
+  # Random:
+  #   cv_obj: -1
+
+
+  # UniLasso:
+  #   cv_obj: -1
+
+  

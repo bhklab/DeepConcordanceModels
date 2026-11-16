@@ -1,0 +1,46 @@
+EXPERIMENT_SETTINGS:
+  seed: 123450
+  write_dir: "../results/"
+  training_screen: "Broad"
+  testing_screens: ['gCSI','GDSC2']
+  replicate_type: "All"
+  drug_list_file: "../procdata/drug_lists/common_drugs.txt"
+  checkpoints: [5,10,15,20,25,30]
+  quantiles: [10,50,70,75,80,85,90,95]
+  drop_types: ['Myeloid','Lymphoid']
+
+TRAIN_OPTS:
+  num_epochs: 30
+  batch_size: 256
+  opt_algo: 'sgd'
+  lr: 0.00001
+  momentum: 0.001
+  weight_decay: 0.0
+  # drop_outs: [0.5]
+  
+
+MODELS_AND_HYPERPARAMETERS:
+    
+  
+  ECINET:
+    hidden_sizes: []
+    use_batch_norm: False
+    drop_prob: 0.
+  
+
+  ONE_NARROW:
+    hidden_sizes: [128]
+    use_batch_norm: True 
+    drop_prob: 0.5
+
+
+  TWO_NARROW:
+    hidden_sizes: [128,128]
+    use_batch_norm: True
+    drop_prob: 0.5
+  
+  
+
+
+  
+

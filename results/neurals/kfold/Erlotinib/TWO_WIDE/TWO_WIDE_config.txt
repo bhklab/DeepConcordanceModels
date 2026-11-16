@@ -1,0 +1,3 @@
+TWO_WIDE
+hidden_sizes:[256, 256]
+use_batch_norm:True

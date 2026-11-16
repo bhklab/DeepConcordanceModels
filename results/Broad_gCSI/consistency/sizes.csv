@@ -1,0 +1,12 @@
+Drug,N_train,N_test
+Crizotinib,754,365
+Docetaxel,354,365
+Erlotinib,764,363
+Gemcitabine,683,264
+Ibrutinib,518,372
+JQ1 compound,768,393
+Lapatinib,710,362
+Paclitaxel,586,365
+Pictilisib,777,372
+Vincristine,798,363
+Vorinostat,755,365

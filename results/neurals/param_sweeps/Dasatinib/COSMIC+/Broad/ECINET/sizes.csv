@@ -1,0 +1,26 @@
+Drug,Delta,Num. Train Pairs
+Dasatinib,0.0,405132
+Dasatinib,0.01,391816
+Dasatinib,0.02,378246
+Dasatinib,0.025,371542
+Dasatinib,0.03,364842
+Dasatinib,0.04,351626
+Dasatinib,0.05,338778
+Dasatinib,0.06,326064
+Dasatinib,0.07,313618
+Dasatinib,0.075,307256
+Dasatinib,0.08,301226
+Dasatinib,0.09,289148
+Dasatinib,0.1,277518
+Dasatinib,0.11,266148
+Dasatinib,0.12,254998
+Dasatinib,0.125,249434
+Dasatinib,0.13,244028
+Dasatinib,0.14,233348
+Dasatinib,0.15,222936
+Dasatinib,0.16,212762
+Dasatinib,0.17,202522
+Dasatinib,0.175,197600
+Dasatinib,0.18,192730
+Dasatinib,0.19,182900
+Dasatinib,0.2,173396

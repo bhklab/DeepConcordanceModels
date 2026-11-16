@@ -1,0 +1,13 @@
+,Screen,Data Type,Total CCLs,Num. Liquid,Num. Solid,Check
+0,gCSI,response,569,87,482,569
+1,gCSI,ccl,788,114,674,788
+2,gCSI,expression,672,104,568,672
+3,GDSC2,response,809,140,669,809
+4,GDSC2,ccl,1080,184,896,1080
+5,GDSC2,expression,456,81,375,456
+6,Broad,response,836,154,682,836
+7,Broad,ccl,1093,187,906,1093
+8,Broad,expression,1018,174,844,1018
+9,GDSC1,response,987,169,818,987
+10,GDSC1,ccl,1080,184,896,1080
+11,GDSC1,expression,456,81,375,456

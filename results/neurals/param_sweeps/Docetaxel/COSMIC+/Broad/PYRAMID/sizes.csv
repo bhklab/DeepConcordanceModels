@@ -1,0 +1,26 @@
+Drug,Delta,Num. Train Pairs
+Docetaxel,0.0,87320
+Docetaxel,0.01,85046
+Docetaxel,0.02,82788
+Docetaxel,0.025,81660
+Docetaxel,0.03,80500
+Docetaxel,0.04,78382
+Docetaxel,0.05,76050
+Docetaxel,0.06,73886
+Docetaxel,0.07,71792
+Docetaxel,0.075,70714
+Docetaxel,0.08,69650
+Docetaxel,0.09,67682
+Docetaxel,0.1,65706
+Docetaxel,0.11,63636
+Docetaxel,0.12,61654
+Docetaxel,0.125,60666
+Docetaxel,0.13,59664
+Docetaxel,0.14,57794
+Docetaxel,0.15,55904
+Docetaxel,0.16,53852
+Docetaxel,0.17,52014
+Docetaxel,0.175,51076
+Docetaxel,0.18,50102
+Docetaxel,0.19,48158
+Docetaxel,0.2,46352

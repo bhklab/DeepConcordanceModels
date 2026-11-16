@@ -1,0 +1,3 @@
+ECINET
+hidden_sizes:[]
+use_batch_norm:False
